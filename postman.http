@@ -1,0 +1,8 @@
+POST https://httpbin.org/post HTTP/2.0
+content-type: application/json
+
+{
+    "name": "ProtoOut Studio",
+    "category": "school",
+    "message": "ProtoOut Studioは日本初のプロトタイピング専門スクールです。"
+}
