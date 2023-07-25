@@ -4,6 +4,15 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "name": "Python: 現在のファイル",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
         {
             "name": "Python Django",
             "type": "python",
@@ -14,6 +23,6 @@
             ],
             "django": true,
             "justMyCode": true
-        },
+        }
     ]
 }
